@@ -38,7 +38,7 @@ export default ({ navigate, version }: NavigateProps) => (
           tabIndex="100"
           type="text"
           onChange={({ target: { value } }) => navigate(value)}
-          placeholder="Command name"
+          placeholder="Command (i.e. 'git') optionally prefixed by the OS (i.e. 'osx/mas' ; supported OS: android, common, linux, osx, sunos and windows)."
         />
       </section>
       <section className="github-stars">
