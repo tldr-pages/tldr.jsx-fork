@@ -38,7 +38,8 @@ export default ({ navigate, version }: NavigateProps) => (
           tabIndex="100"
           type="text"
           onChange={({ target: { value } }) => navigate(value)}
-          placeholder="Command name"
+          placeholder="i.e. man, linux/du, osx/say..."
+          title="Command optionally prefixed by the platform and a slash (supported platforms: android, common, linux, osx, sunos and windows)."
         />
       </section>
       <section className="github-stars">
